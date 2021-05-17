@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    "mongodb+srv://singh:2zGoPDhWqdfOP0LB@cluster0.inigt.mongodb.net/registration?retryWrites=true&w=majority",
+    "localhost:800/form",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,

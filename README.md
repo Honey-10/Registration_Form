@@ -12,4 +12,7 @@
   </sub>
 </div>
 
-![alt_text] ("https://imgur.com/eh3oGWy")
+![alt_text](https://i.imgur.com/Oz91GBP.png)
+![alt_text](https://i.imgur.com/heKgJ3z.png)
+![alt_text](https://i.imgur.com/RrQB5C0.mp4/ GIF)
+

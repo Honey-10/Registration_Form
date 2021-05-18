@@ -9,10 +9,13 @@
 <div align="center">
   <sub>The Full-stack project. Built with ❤︎ by
     <a href="https://github.com/Honey-10">Harmeet Singh</a>
+    
   </sub>
 </div>
 
-![alt_text](https://i.imgur.com/Oz91GBP.png)
+### Front End
+![alt_text](https://i.imgur.com/b51lGQH.png)
+![alt_text](./2875971f-ff9d-4783-9612-ac6dcf553a90.gif)
 ![alt_text](https://i.imgur.com/heKgJ3z.png)
-![alt_text](https://i.imgur.com/RrQB5C0.mp4/ GIF)
+
 

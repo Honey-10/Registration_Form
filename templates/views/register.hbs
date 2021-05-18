@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Registration Form</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+		<div class="wrapper" style="background-image: url('https://images.unsplash.com/photo-1547827453-026b26f91802?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');">
+			<div class="inner">
+				<div class="image-holder">
+					<img src="https://images.unsplash.com/photo-1556742208-999815fca738?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" alt="">
+				</div>
+				<form action="/register" method="POST">
+					<h3>Registration Form</h3>
+					<div class="form-group">
+						<input type="text" placeholder="First Name" class="form-control" name="firstname">
+						<input type="text" placeholder="Last Name" class="form-control" name="lastname">
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Username" class="form-control" name="username">
+						<i class="zmdi zmdi-account"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Email Address" class="form-control" name="email">
+						<i class="zmdi zmdi-email"></i>
+					</div>
+					<div class="form-wrapper">
+						<select name="" id="" class="form-control" name="gender">
+							<option value="" disabled selected>Gender</option>
+							<option value="male">Male</option>
+							<option value="femal">Female</option>
+							<option value="other">Other</option>
+						</select>
+						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="password" placeholder="Password" class="form-control" name="password">
+						<i class="zmdi zmdi-lock"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="password" placeholder="Confirm Password" class="form-control" name="confirmpassword">
+						<i class="zmdi zmdi-lock"></i>
+					</div>
+					<input type="submit" class="inputsubmit">
+                    {{!-- <button>Register <i class="zmdi zmdi-arrow-right"></i> </button> --}}
+                    </input>
+				</form>
+			</div>
+		</div>
+		
+	</body><!-- This templates was made by Harmeet Singh -->
+</html>

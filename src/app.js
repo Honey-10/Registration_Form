@@ -44,7 +44,7 @@ app.post("/register", async (req, res) => {
       const datasave = await datastore.save();
       res.status(201).send(datasave);
     } else {
-      res.send("something is wrong");
+      res.send("something went wrong");
     }
   } catch (error) {
     res.status(400).send(error);
